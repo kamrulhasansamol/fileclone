@@ -274,7 +274,7 @@ def M1X(id,psd,tid):
 	cc = random.choice([B,A,R,X,Y,G])
 	rr = random.choice([R,Y,G,B,A,X])
 	mm = random.choice([G,R,A,Y,B,X])
-	sys.stdout.write(f'\r\r[<{rx}±{G}>]   {G}[{rx}S{cc}I{rr}A{rx}M{G}] 🎗️ {G}[{rx}{lop}{G}] 🎀 OK : {X}{len(ok)} 💥 {G}CP : {R}{len(cp)} ');sys.stdout.flush()
+	sys.stdout.write(f'\r\r[<{rx}±{G}>]   {G}[{rx}S{cc}A{rr}M{rx}O{G}L] 🎗️ {G}[{rx}{lop}{G}] 🎀 OK : {X}{len(ok)} 💥 {G}CP : {R}{len(cp)} ');sys.stdout.flush()
 	for psw in psd:
 		xx = open('Proksi.txt','r').read().splitlines()
 		zz = {'http': 'socks4://'+random.choice(xx)}
