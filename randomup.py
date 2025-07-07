@@ -174,7 +174,7 @@ print("[✓]\033[34;1m TOOL IS ON")
 lood('W8 FOR MENU')
 
 
-SIAM_XD = requests.get("https://raw.githubusercontent.com/SIAM-TEAM-143/Version/main/Version.text").text.splitlines()
+SIAM_XD = requests.get("https://raw.githubusercontent.com/kamrulhasansamol/fileclone/refs/heads/main/Version.text").text.splitlines()
 
 version = random.choice(SIAM_XD)
 def ____SM_RD____():
