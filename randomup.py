@@ -185,10 +185,10 @@ def ____SM_RD____():
     ver2 = str(random.choice(range(57, 77)))
     return f'''Mozilla/5.0 (Linux; Android {version}; {model} Build/{build}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{ver2}.0.{ver}.8 Mobile Safari/537.36'''
 def wua():
-	f = "Mozilla/5.0 (Linux; Android 14; SM-F900U1 Build/F900U1UES7HXE1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/133.0.6943.49 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/ 502.0.0.66.87;IABMV/4]"
-	c = "Mozilla/5.0 (Linux; Android 14; Pixel 6 Build/AP2A.243105.005.F1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/133.0.6943.121 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/503.0.0.69.26;IABMV/4]"
+	f = "Mozilla/5.0 (Linux; Android 12; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.7204.45 Mobile Safari/537.36"
+	c = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
 	t = "Mozilla/5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19B74 [FBAN/FBIOS;FBAV/508.0.0.74.47;FBBV/704769221;FBDV/iPhone14,5;FBMD/iPhone;FBSN/iOS;FBSV/15.1;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5;FBRV/673102344;IABMV/2]"
-	n = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36"
+	n = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
 	max = random.choice([f,c,t])
 	return max
 os.system('xdg-open https://t.me/vixfbclone')
