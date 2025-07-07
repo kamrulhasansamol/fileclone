@@ -66,7 +66,7 @@ nflp=f"[{R}!{W}] FILE LOCATION NOT FOUND "
 ############------[ LOGO ]------#########
 os.system('espeak -a 300 "well,come to, SAMOL , tools"')
 
-SIAM_POWER_OF_ID = requests.get("https://raw.githubusercontent.com/SIAM-TEAM-143/UA-UP/refs/heads/main/uax.txt").text.splitlines()
+SIAM_POWER_OF_ID = requests.get("https://raw.githubusercontent.com/kamrulhasansamol/fileclone/refs/heads/main/uax.txt").text.splitlines()
 
 SIAM_UPDATE_BRO_M1 = random.choice(SIAM_POWER_OF_ID)
 
@@ -91,7 +91,7 @@ except:
 MY_KEY = open('/data/data/com.termux/files/usr/lib/.myawm.txt','r').read()
 class apvroval:
     def check():
-        url = "https://raw.githubusercontent.com/kamrulhasansamol/fileclone/refs/heads/main/APPROVAL.txt"
+        url = "https://raw.githubusercontent.com/SIAM-TEAM-143/Ff-kil/refs/heads/main/APPROVAL.txt"
         import mechanize
         my_awm = mechanize.Browser()
         try:
@@ -202,9 +202,9 @@ def baluax2():
 
 
 def usx():
-	wr = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36"
-	nt = "Mozilla/5.0 (Linux; Android 13; 2201116TI Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/137.0.7151.90 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/512.0.0.54.109;]"
-	win = "Mozilla/5.0 (Linux; Android 13; 2201116TG Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/137.0.7151.89 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/512.0.0.54.109;]"
+	wr = "Mozilla/5.0 (Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.7151.115 Safari/537.36"
+	nt = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36;]"
+	win = "Mozilla/5.0 (Linux; Android 12; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.7204.45 Mobile Safari/537.36;]"
 	vb = "Mozilla/5.0 (Linux; Android 13; 2201116TG Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/137.0.7151.89 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/512.0.0.54.109;]"
 	xd = "Mozilla/5.0 (Linux; Android 15; V2333 Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/137.0.7151.115 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/512.1.0.67.109;]"
 	uamax = random.choice(["wr","nt","win","vb","xd"])
