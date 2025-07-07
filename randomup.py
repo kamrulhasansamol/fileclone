@@ -191,7 +191,7 @@ def wua():
 	n = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
 	max = random.choice([f,c,t])
 	return max
-os.system('xdg-open https://t.me/vixfbclone')
+os.system('xdg-open https://t.me/xeno_cheat_bd')
 
 
 def baluax2():
