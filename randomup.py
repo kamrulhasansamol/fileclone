@@ -106,7 +106,7 @@ class apvroval:
                 print(logo2)
                 
                 input('>>>>PRESS ENTER TO SEND KEY\033[0;97m')
-                #os.system('xdg-open https://t.me/Siamking999')
+                #os.system('xdg-open https://t.me/Samol_Hasan')
                 input('\033[0;97m\033[10;97m[\033[92;1m| ! |\033[10;97m] \33[0;41mPRESS 2 ENTER TO SEND ADMIN\033[0;97m')
                 appv = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+MY_KEY);os.system('am start https://t.me/RAVIXPROX?text='+appv),approval()  
                 time.sleep(59)
